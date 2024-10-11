@@ -1,0 +1,58 @@
+.table-container{
+    display: flex;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: antiquewhite;
+    outline: none;
+    text-decoration: none; /* Removes the underline */
+}
+
+a:focus {
+    outline: none; /* Removes the focus outline */
+}
+
+a:active {
+    outline: none; /* Removes the active state outline */
+}
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+}
+
+.flex{
+    display: flex;
+    max-width: 100%;
+}
+
+.flex button{
+    height: 50px;
+    margin-left: 45%;
+}
+.cb-container{
+    max-width: 400px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px; /* Adjust as needed */
+        height: 600px; /* Adjust as needed */
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+}
+.delete{
+    height: 30px;
+    width: 50px;
+    border: none;
+}
+.idx{
+    color: black;
+}
